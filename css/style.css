@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap');
+
+:root   {
+   --ungu : #563D7C;
+   --tua : #7952B3;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+}
+.container1 {
+    position: relative;
+    min-width: 1350px;
+    width: 100%;
+    padding: 20px;
+    margin: 50px auto;
+    background: var(--ungu);
+}
+.button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #f6f6f6;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+
+/* .carousel{
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    margin: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear 0s;
+    padding: 3rem 5%;
+    background: rgb(246, 246, 246);
+} */
+.my-navbar {
+    background-color: var(--ungu);
+    
+}
+.my-navbar .icon{
+    color: var(--tua);
+}
+.heroes{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.heroes h5{
+    color: var(--ungu);
+    margin-bottom: 1.5rem;
+}
+.heroes h1{
+    font-weight: 600;
+    
+}
+.heroes p{
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+.heroes .get-started{
+    color: var(--ungu);
+    text-decoration: none;
+}
+.heroes .btn-regis {
+    background-color: var(--tua);
+    color: white;
+}
+.heroes .btn-regis:hover{
+    background-color: var(--ungu);
+    color: white;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.heroes::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: opacity(10%);
+}
+
+.info-panel .col-md{
+    border: 1px solid #e5e5e5;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0);
+    margin: 0 0.8rem;
+    padding: 1rem 1rem 0.5rem 1rem;
+    background-color: white;
+}
+.info-panel i{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+    color: var(--ungu);
+}
+.info-panel .number{
+    font-weight: 600;
+    font-size: 2rem;
+}
+.info-panel .person{
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+.tentang {
+    font-weight: 600;
+    font-size: 2rem;
+}
+.bg-gray{
+    background-color: #f6f6f6;
+}
+.about{
+    color: var(--ungu);
+    margin-top: -2.5rem;
+    padding-top: 16PX;
+    padding-bottom: 3rem;
+    font-weight: 600;
+    
+}
+.gallery{
+    font-size: 62.5%;
+    font-family: Montserrat, sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear 0s;
+    padding: 3rem 5%;
+    background: rgb(246, 246, 246);
+}
+
+@media (max-width ="576px"){
+    html{
+        font-size: 80px;
+    }
+    .heroes{
+        text-align: center;
+    }
+    .heroes h5{
+        margin-top: 2rem;
+    }
+}
+.footer {
+    background-color: var(--ungu);
+    padding: 12px;
+    color: white;
+    text-align: center;
+}
