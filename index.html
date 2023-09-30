@@ -48,7 +48,7 @@
                 <a class="nav-link" href="#gallery">Galeri</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="artikel.html">Articel</a>
+                <a class="nav-link" href="#artikel">Articel</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Contact">Contact</a>
@@ -306,11 +306,109 @@
     </section>
     <!--End Service-->
     <!--Galery-->
-    <div class="container1">
-      <!-- filter bottons -->
-      <button data-name="All">Show all</button>
-      <button data-name="Koordinator">Koordinator</button>
-      <button data-name="Anggota">Anggota</button>
+
+    <section class="bg-gray" id="gallery">
+      <div class="container" style="margin-bottom: 20px; font-size: 30px;">
+        <div class="row text-center justify-content-center" data-aos="fade-down">
+          <div class="col section-title text-primary">Galeri</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group" role="group" aria-label="first group">
+          <button type="button" class="btn btn-info" ><a href="show"></a>Show All</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="first group">
+          <button type="button" class="btn btn-info" ><a href="koordinator"></a>Koordinator</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="first group">
+          <button type="button" class="btn btn-info" href="anggota">Anggota</button>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+    <!-- <section class="gallery" id="gallery">
+      <div class="container1"> -->
+        <!-- filter bottons -->
+        <!-- <div class="">
+          <button class="btn btn-primay" color="white"  type="submit">Show all</button>
+          <button class="btn btn-primay" color="white"  type="submit">Show all</button>
+          <button class="btn btn-primay" color="white"  type="submit">Show all</button>
+          <button class="btn btn-primay" color="white"  type="submit">Show all</button> -->
+
+          <!-- <button data-name="Koordinator">Koordinator</button>
+          <button data-name="Anggota">Anggota</button>
+          <button data-name="Tim Support">Tim Support</button> -->
+        <!-- </div> -->
+  
+        <!-- images cards -->
+        
+        <!-- <div class="filterable_cards">
+          <div class="card" data-name="Koordinator">
+            <img src="img/11.jpg" alt="Koordinator">
+            <div class="card_body">
+              <h6 class="card_title">Koordinator</h6>
+              <p class="card text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+  
+          <div class="card" data-name="Koordinator">
+            <img src="img/12.jpg" alt="Koordinator">
+            <div class="card_body">
+              <h6 class="card_title">Koordinator</h6>
+              <p class="card text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+
+          <div class="card" data-name="Koordinator">
+            <img src="img/gallery-05.jpg" alt="Koordinator">
+            <div class="card_body">
+              <h6 class="card_title">Koordinator</h6>
+              <p class="card text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+  
+          <div class="card" data-name="Anggota">
+            <img src="img/gallery-03.jpg" alt="Anggota">
+            <div class="card_body">
+              <h6 class="card_title">Anggota</h6>
+              <p class="card text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div> -->
+  
+          <!-- <div class="card" data-name="Anggota">
+            <img src="img/gallery-02.jpg" alt="Anggota">
+            <div class="card_body">
+              <h6 class="card_title">Anggota</h6>
+              <p class="card text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+  
+          <div class="card" data-name="Tim Support">
+            <img src="img/pp.webp" alt="Tim Support">
+            <div class="card_body">
+              <h6 class="card_title">Tim Support</h6>
+              <p class="card text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div> -->
+
+          <!-- <div class="card" data-name="Tim Support">
+            <img src="img/logo5.avif" alt="Tim Support">
+            <div class="card_body">
+              <h6 class="card_title">Tim Support</h6>
+              <p class="card text">Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div> -->
+        <!-- </div> -->
+    <!-- </section> -->
+    
       <!-- <div class="col-md d-flex justify-content-center">
         <div class="col-12">
           <section class="gallery" id="gallery">
@@ -366,12 +464,12 @@
           </div>
         </div>
       </div> -->
-    </div>
+    <!-- </div> -->
       
     <div class="container">
       <div class="col-md d-flex justify-content-center">
         <div class="col-12">
-          <section class="gallery" id="gallery">
+          <section class="gallery" id="show">
             <div class="container" style="margin-bottom: 20px; font-size: 30px;">
               <div class="row text-center justify-content-center" data-aos="fade-down">
                 <h1>Koordinator</h1>
@@ -400,10 +498,10 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container "  >
       <div class="col-md d-flex justify-content-center">
         <div class="col-12">
-          <section class="gallery" id="gallery">
+          <section class="gallery" id="koordinator">
             <div class="container" style="margin-bottom: 20px; font-size: 30px;">
               <div class="row text-center justify-content-center" data-aos="fade-down">
                 <h1>Team Support</h1>
@@ -414,32 +512,32 @@
           <div class="row row-cols-1 row-cols-md-3 g-4" data-aos="fade-down">
             <div class="col d-flex align-items-center justify-content-center ">
               <div class="card">
-                <img src="img/gallery-01.jpg" class="card-img-top" alt="...">
+                <img src="img/6.jpeg" class="card-img-top" alt="...">
               </div>
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               <div class="card">
-                <img src="img/gallery-01.jpg" class="card-img-top" alt="...">
+                <img src="img/2.jpeg" class="card-img-top" alt="...">
               </div>
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               <div class="card">
-                <img src="img/gallery-01.jpg" class="card-img-top" alt="...">
+                <img src="img/11.jpg" class="card-img-top" alt="...">
               </div>
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               <div class="card">
-                <img src="img/gallery-01.jpg" class="card-img-top" alt="...">
+                <img src="img/13.jpg" class="card-img-top" alt="...">
               </div>
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               <div class="card">
-                <img src="img/gallery-01.jpg" class="card-img-top" alt="...">
+                <img src="img/5.jpeg" class="card-img-top" alt="...">
               </div>
             </div>
             <div class="col d-flex align-items-center justify-content-center">
               <div class="card">
-                <img src="img/gallery-01.jpg" class="card-img-" alt="...">
+                <img src="img/3.jpeg" class="card-img-" alt="...">
               </div>
             </div>
           </div>
@@ -472,9 +570,57 @@
       </div>
     </section> -->
     
-    
+
 
     <!--End Galery-->
+
+
+
+
+    <!-- artikel -->
+    
+
+    <div class="container "  >
+      <div class="col-md d-flex justify-content-center">
+        <div class="col-12">
+          <section class="bg-gray" id="artikel">
+            <div class="container" style="margin-bottom: 20px; font-size: 30px;">
+              <div class="row text-center justify-content-center" data-aos="fade-down">
+                <div class="col section-title text-primary">Artikel</div>
+              </div>
+            </div>
+          </section>
+      
+          <div class="row row-cols-1 row-cols-md-3 g-4" data-aos="fade-down">
+            <div class="col d-flex align-items-center justify-content-center ">
+              <div class="card">
+                <img src="img/6.jpeg" class="card-img-top" alt="...">
+                <h3>Memulai belajar dengan satu langkah kecil</h3>
+                <p><a class="link-offset-2" href="link/succes.html">Memacukan diri sendiri</a></p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="card">
+                <img src="img/2.jpeg" class="card-img-top" alt="...">
+                <h3>Melihat fungsinya</h3>
+                <p><a class="link-offset-2" href="link/situs.html">Apa guna sertifikat</a></p>
+              </div>
+            </div>
+            <div class="col d-flex align-items-center justify-content-center">
+              <div class="card">
+                <img src="img/11.jpg" class="card-img-top" alt="...">
+                <h3>Memulai bisnis tanpa modal</h3>
+                <p><a class="link-offset-2" href="link/lint.html">Memulai bisnis tanpa modal</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+    <!-- end artikel -->
+
+
     <!-- Contak -->
     <section class="bg-gray" id="Contact">
       <div class="container" style="margin-bottom: 20px; font-size: 30px;" data-aos="fade-down">
@@ -488,13 +634,66 @@
           
             
     <!-- end Contak -->
+    <!-- form -->
+    <section class="bg-gray" id="">
+      <div class="container" style="margin-bottom: 20px; font-size: 30px;" data-aos="fade-down">
+        <div class="row  justify-content-center" data-aos="fade-down">
+          <div class="col text-center section-title">Form</div>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputNama1" class="form-label">Nama <address></address></label>
+              <input type="nama" class="form-control" id="exampleInputNama1" aria-describedby="namalHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email <address></address></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password <address></address></label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPhone1" class="form-label">Phone <address></address></label>
+              <input type="Phone" class="form-control" id="exampleInputPhone1" aria-describedby="phoneHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputMessage1" class="form-label">Message <address></address></label>
+              <input type="Message" class="form-control" id="exampleInputMessage1" aria-describedby="phoneHelp">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="examplecheck1">
+              <label class="form-check-label" for="examplecheck1">chek me out</label>
+            </div>
+            <button onclick="myFunction()" type="submit" class="btn btn-primary">Submit</button>
+
+            <script>
+            function myFunction() {
+              alert(" Succes !");
+            }
+            </script>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <!-- end form -->
+    <!-- MAPS -->
+    <section class="bg-gray" id="Contact">
+      <div class="container" style="margin-bottom: 20px; font-size: 30px;" data-aos="fade-down">
+        <div class="row text-center justify-content-center" data-aos="fade-down">
+          <div class="col section-title text-primary">Maps</div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2775.3056530294475!2d98.66440772778674!3d3.5958502642049193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131de34284147%3A0x9d3c0734be3e9b5f!2sUniversitas%20Prima%20Indonesia!5e0!3m2!1sid!2sid!4v1695982646209!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+    
     
    
 
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-    <script type="" src="js/vanilla-tilt.js"></script>
+    <script src="js/vanilla-tilt.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
