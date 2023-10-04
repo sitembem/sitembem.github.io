@@ -11,82 +11,6 @@ body {
     font-size: 16px;
     color: #303030;
 }
-.container1 {
-    position: relative;
-    min-width: 1350px;
-    width: 100%;
-    padding: 20px;
-    margin: 50px auto;
-    background: var(--ungu);
-}
-
-/* button{
-    padding: 10px 20px;
-    font-size: 18px;
-    background: #f6f6f6;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-}
-.filter_buttons {
-    flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-button.active{
-    background: #4070f4;
-    color: #fff;
-}
-.filterable_cards{
-    display: flex;
-    margin-top: 25px;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-.card{
-    flex-grow: 1;
-    background-color: #fff;
-    flex-basis: 300px;
-    padding: 3PX;
-    border-radius: 8PX;
-}
-.card .img{
-    width: 100%;
-    height: 210pX;
-    object-fit: cover;
-    border-radius: 8PX 8PX 0 0;
-
-}
-
-.card_body{
-    padding: 15px 20px 20px;
-}
-.card_title{
-    font-size: 20px;
-    font-weight: 500;
-    color: #333;
-}
-.card_text{
-    font-size: 18px;
-    font-weight: 500;
-    color: #333;
-} */
-
-/* .carousel{
-    font-size: 16px;
-    font-family: Montserrat, sans-serif;
-    margin: 10px;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: all 0.2s linear 0s;
-    padding: 3rem 5%;
-    background: rgb(246, 246, 246);
-} */
 .my-navbar {
     background-color: var(--ungu);
     
@@ -99,7 +23,7 @@ button.active{
     margin-bottom: 5rem;
 }
 .heroes h5{
-    color: var(--ungu);
+    color: var(--blue);
     margin-bottom: 1.5rem;
 }
 .heroes h1{
@@ -111,15 +35,15 @@ button.active{
     margin-bottom: 2rem;
 }
 .heroes .get-started{
-    color: var(--ungu);
+    color: var(--blue);
     text-decoration: none;
 }
 .heroes .btn-regis {
-    background-color: var(--tua);
+    background-color: var(--orange);
     color: white;
 }
 .heroes .btn-regis:hover{
-    background-color: var(--ungu);
+    background-color: var(--blue);
     color: white;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
 }
@@ -167,27 +91,12 @@ button.active{
     background-color: #f6f6f6;
 }
 .about{
-    color: var(--ungu);
     margin-top: -2.5rem;
     padding-top: 16PX;
     padding-bottom: 3rem;
     font-weight: 600;
     
 }
-.gallery{
-    font-size: 62.5%;
-    font-family: Montserrat, sans-serif;
-    margin: 0px;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: all 0.2s linear 0s;
-    padding: 3rem 5%;
-    background: rgb(246, 246, 246);
-}
-
 @media (max-width ="576px"){
     html{
         font-size: 80px;
