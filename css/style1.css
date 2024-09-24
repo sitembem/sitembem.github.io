@@ -8,6 +8,8 @@
 * body {
     min-height: 100vh;  
     background: #e7f2fd;
+}
+.body {
     background-color: #f8f9fa;
     display: flex;
     justify-content: center;
